@@ -3,9 +3,9 @@ const hideBtn = document.querySelector(".fa-times");
 const navLinks = document.getElementById("navLinks");
 
 showBtn.addEventListener("click", function(){
-	navLinks.style.right = "0px";
+	navLinks.style.display = "block";
 });
 
 hideBtn.addEventListener("click", function(){
-	navLinks.style.right = "-200px";
+	navLinks.style.display = "none";
 })
